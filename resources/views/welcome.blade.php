@@ -770,11 +770,11 @@
             <i class="menu-btn"></i>
             <div class="menu-cnt">
                 <ul>
-                    <li> <a href="https://upscale.id">Home</a></li>
-                    <li> <a href="https://upscale.id/help-business">For Business</a></li>
-                    <li> <a href="https://upscale.id/help-talent">For Talent</a></li>
-                    <li class="m"> <a href="https://upscale.id/jobs">Jobs</a></li>
-                    <li class="m"> <a href="https://upscale.id/faq">F.A.Q</a></li>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="/help-business">For Business</a></li>
+                    <li> <a href="/help-talent">For Talent</a></li>
+                    <li class="m"> <a href="/jobs">Jobs</a></li>
+                    <li class="m"> <a href="/faq">F.A.Q</a></li>
                     <!-- <li> <a href="https://api.whatsapp.com/send?phone=6287888666531&text=Hi Upscale">Contact Us</a></li> -->
                     <!-- <li class="dropdown">
                         <a href="https://upscale.id">Service</a>
@@ -1069,87 +1069,62 @@
         <section class="section-base section-color section-top-overflow" style="background: #37517E">
             <div class="container" style="padding-top: 0">
                 <div class="slider glide glide--ltr glide--carousel glide--swipeable"
-                    data-options="type:carousel,arrows:false,nav:false,perView:5,perViewMd:3,perViewXs:2,gap:80">
+                    data-options='{"type":"carousel","arrows":false,"nav":false,"perView":6,"perViewMd":3,"perViewXs":2,"gap":80,"autoplay":3000}'>
                     <div data-glide-el="track" class="glide__track">
-                        <ul class="glide__slides"
-                            style="transition: transform cubic-bezier(0.165, 0.84, 0.44, 1); width: 3280px; transform: translate3d(-1120px, 0px, 0px);">
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-1.png" alt="">
+                        <ul class="glide__slides">
+                            <!-- Slide asli tanpa clone manual -->
+                            <li class="tooltipx glide__slide">
+                                <img src="{{ url('images/logo-1.png') }}" alt="Logo 1">
                             </li>
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-2.png" alt="">
+                            <li class="tooltipx glide__slide">
+                                <img src="{{ url('images/logo-2.png') }}" alt="Logo 2">
                             </li>
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-3.png" alt="">
+                            <li class="tooltipx glide__slide">
+                                <img src="{{ url('images/logo-3.png') }}" alt="Logo 3">
                             </li>
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-4.png" alt="">
+                            <li class="tooltipx glide__slide">
+                                <img src="{{ url('images/logo-4.png') }}" alt="Logo 4">
                             </li>
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-5.png" alt="">
+                            <li class="tooltipx glide__slide">
+                                <img src="{{ url('images/logo-5.png') }}" alt="Logo 5">
                             </li>
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-6.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide glide__slide--active"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-1.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-2.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-3.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-4.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-5.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-6.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-1.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-2.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-3.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-4.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-left: 40px; margin-right: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-5.png" alt="">
-                            </li>
-                            <li class="tooltipx glide__slide glide__slide--clone"
-                                style="width: 106.667px; margin-left: 40px;">
-                                <img src="https://upscale.id/template/upscale/media/logos/white/logo-6.png" alt="">
+                            <li class="tooltipx glide__slide">
+                                <img src="{{ url('images/logo-6.png') }}" alt="Logo 6">
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const glides = document.querySelectorAll('.glide');
+
+                glides.forEach(function (glide) {
+                    // Parse options dari data attribute
+                    const options = JSON.parse(glide.getAttribute('data-options') || '{}');
+
+                    // Inisialisasi Glide
+                    new Glide(glide, {
+                        type: options.type || 'carousel',
+                        arrows: options.arrows || false,
+                        nav: options.nav || false,
+                        perView: options.perView || 5,
+                        breakpoints: {
+                            768: {
+                                perView: options.perViewMd || 3
+                            },
+                            480: {
+                                perView: options.perViewXs || 2
+                            }
+                        },
+                        gap: options.gap || 80,
+                        autoplay: options.autoplay || 3000
+                    }).mount();
+                });
+            });
+        </script>
 
         <section id="features" class="section-base section-color align-center section-bottom-layer-2">
             <div class="container">
@@ -1333,8 +1308,8 @@
         </section>
 
 
-        <section class="section-image light ken-burn-center" data-parallax="scroll"
-            data-image-src="https://upscale.id/template/upscale/media/hd-4.jpg">
+        <section class="section-image light ken-burn-center"
+            style="background-image: url('{{ asset('images/hd-4.jpg') }}');">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
@@ -1662,9 +1637,9 @@
                     <div class="menu-inner menu-inner-vertical">
                         <ul>
                             <li>
-                                <a href="https://upscale.id/help-talent">Why Join as Talent?</a>
+                                <a href="/help-talent">Why Join as Talent?</a>
                             </li>
-                            <li> <a href="https://upscale.id/jobs">Job Opportunities</a> </li>
+                            <li> <a href="/jobs">Job Opportunities</a> </li>
                             <li> <a class="join_community" data-target="#registerTalent" data-toggle="modal"
                                     data-dismiss="modal">Register as Talent</a> </li>
                         </ul>
